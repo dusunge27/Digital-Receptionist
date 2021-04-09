@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <img class="logo" src="\Users\web development\Digital Receptionist\Images/litwiz.jpg" alt="">
+    <link rel="stylesheet" href="master.css">
+
+
+  </head>
+
+  <body>
+
+    <div class="top-con">
+    <div class="text">
+    <h1>Digital Receptionist</h1>
+    <h2> Welcome </h2>
+    <h2>Align your face in the box</h2>
+    <div>
+    <video autoplay="true" id="vid"> </video>
+    <form class="inf" action="index.html" method="post">
+      <input class="form-control" type="text" placeholder="Type here…" readonly>
+      <input type="submit" name="" value="">
+    </form>
+
+    </div>
+    <script>
+    navigator.mediaDevices.getUserMedia(
+      {
+        video:{
+          width:230,
+          height:230
+        }
+      })
+      .then(stream=>{
+        document.getElementById('vid').srcObject=stream;
+      })
+    </script>
+    </div>
+  </div>
+
+    <video controls autoplay class="v-el">
+
+        <source src="\Users\web development\Digital Receptionist\Video/receptionist_idle.mp4"
+                type="video/mp4">
+
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+  </body>
+  <footer>
+    <marquee behavior="scroll" direction="right"><strong>Digital Receptionist</strong></marquee>
+
+
+  </footer>
+
+
+</html>

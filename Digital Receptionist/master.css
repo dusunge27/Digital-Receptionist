@@ -1,0 +1,75 @@
+
+.text{
+  display: block;
+  background-image: none;
+  position: absolute;
+  left: 66%;
+  top:15%;
+  background-color: transparent;
+  text-align:center;
+  color:#13B477;
+
+}
+.wel{
+  display: inline;
+  position: absolute;
+  left: 33%;
+
+}
+p{
+  align: center;
+}
+
+body{
+ background-image:url("https://image.freepik.com/free-vector/abstract-elegant-background-with-flowing-lines-wave_1017-25372.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+html{
+ height: 100%;
+
+}
+
+#vid{
+border-style: ridge;
+
+}
+
+div{
+
+
+}
+
+.v-el{
+  display: inline;
+  background-image: none;
+  position:absolute;
+  right:65%;
+  top:10%;
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+
+
+
+
+}
+
+footer{
+display: block;
+width: 100%;
+position: absolute;
+bottom: 5px;
+border-style: solid gray;
+
+}
+
+.logo{
+width: 30px;
+height: 30px;
+
+}
